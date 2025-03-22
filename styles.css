@@ -1,0 +1,77 @@
+/* styles.css */
+
+body {
+    font-family: "Arial", sans-serif;
+    background-color: #e3e3e3;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .app-container {
+    max-width: 400px;
+    margin: auto;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  /* Calculator */
+  .calculator {
+    width: 100%;
+    max-width: 300px;
+    margin: auto;
+    background: #222;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Display Screen */
+  .screen {
+    background: #000;
+    color: #0f0;
+    font-size: 24px;
+    padding: 15px;
+    border-radius: 5px;
+    text-align: right;
+    min-height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    overflow-x: auto;
+  }
+  
+  /* Buttons */
+  .buttons {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin-top: 15px;
+  }
+  
+  .buttons button {
+    padding: 10px;
+    background: #444;
+    color: white;
+    border: none;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .buttons button:hover {
+    background: #666;
+  }
+  
+  /* Average */
+  .average {
+    margin-top: 15px;
+    background: #333;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 18px;
+  }
+  
